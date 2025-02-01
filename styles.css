@@ -20,7 +20,7 @@ body {
 }
 
 .hero {
-    background-image: url('hero.svg'); /* Pastikan gambar ini ada di folder yang sama */
+    background-image: url('hero.webp'); /* Pastikan gambar ini ada di folder yang sama */
     background-size: cover;
     background-position: center;
     color: #fff;
