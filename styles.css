@@ -20,22 +20,38 @@ body {
 }
 
 .hero {
-    background-image: url('hero.png'); /* Pastikan gambar ini ada di folder yang sama */
+    background-image: url('hero.jpg');
     background-size: cover;
     background-position: center;
+    background-blend-mode: darken; /* Efek blur */
     color: #000000;
     padding: 100px 0;
     text-align: center;
+    position: relative;
+}
+
+.hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Efek blur */
 }
 
 .hero-title {
     font-size: 36px;
     margin-bottom: 20px;
+    position: relative;
+    z-index: 1;
 }
 
 .hero-subtitle {
     font-size: 24px;
     margin-bottom: 30px;
+    position: relative;
+    z-index: 1;
 }
 
 .btn-primary {
@@ -61,14 +77,10 @@ body {
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     overflow: hidden;
-    transition: transform 0.2s;
-}
-
-.card:hover {
-    transform: translateY(-10px);
 }
 
 .card-img-top {
+    width: 100%;
     height: 200px; /* Ukuran gambar konsisten */
     object-fit: cover;
 }
@@ -135,7 +147,6 @@ body {
     color: #007bff;
 }
 
-/* Align footer text to the left */
 .footer p {
-    text-align: left;
+    text-align: left; /* Teks di footer rata kiri */
 }
