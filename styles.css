@@ -20,10 +20,10 @@ body {
 }
 
 .hero {
-    background-image: url('hero.webp'); /* Pastikan gambar ini ada di folder yang sama */
+    background-image: url('hero.png'); /* Pastikan gambar ini ada di folder yang sama */
     background-size: cover;
     background-position: center;
-    color: #fff;
+    color: #000000;
     padding: 100px 0;
     text-align: center;
 }
