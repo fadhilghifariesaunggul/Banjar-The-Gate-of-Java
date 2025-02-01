@@ -23,39 +23,25 @@ body {
     background-image: url('hero.jpg');
     background-size: cover;
     background-position: center;
-    background-blend-mode: darken; /* Efek blur */
+    background-blend-mode: darken;
+    background-color: rgba(0, 0, 0, 0.5);
     color: #fff;
     padding: 100px 0;
     text-align: center;
-    position: relative;
-}
-
-.hero::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.5); /* Efek blur */
 }
 
 .hero-title {
-    font-size: 37px;
+    font-size: 36px;
     margin-bottom: 20px;
-    position: relative;
-    z-index: 1;
 }
 
 .hero-subtitle {
-    font-size: 23px;
+    font-size: 24px;
     margin-bottom: 30px;
-    position: relative;
-    z-index: 1;
 }
 
 .btn-primary {
-    background-color: #72C7E6;
+    background-color: #007bff;
     border-color: #007bff;
 }
 
@@ -81,7 +67,7 @@ body {
 
 .card-img-top {
     width: 100%;
-    height: 200px; /* Ukuran gambar konsisten */
+    height: 200px;
     object-fit: cover;
 }
 
@@ -110,7 +96,7 @@ body {
 }
 
 .footer {
-    background-color: #0000;
+    background-color: #333;
     color: #fff;
     padding: 30px 0;
 }
@@ -147,6 +133,7 @@ body {
     color: #007bff;
 }
 
+/* Align footer text to the left */
 .footer p {
-    text-align: left; /* Teks di footer rata kiri */
+    text-align: left;
 }
