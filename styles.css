@@ -24,7 +24,7 @@ body {
     background-size: cover;
     background-position: center;
     background-blend-mode: darken; /* Efek blur */
-    color: #0000;
+    color: #fff;
     padding: 100px 0;
     text-align: center;
     position: relative;
