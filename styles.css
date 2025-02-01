@@ -98,9 +98,7 @@ body {
     font-size: 16px;
     color: #555;
 }
-p {
-    margin-bottom: 20px; /* Menambahkan jarak bawah pada paragraf */
-}
+
 .btn-secondary {
     background-color: #6c757d;
     border-color: #6c757d;
